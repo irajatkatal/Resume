@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 /* THis is  the main conatiner */
@@ -26,6 +27,7 @@ body{
     background-color: rgb(240, 248, 255);
     border-radius: 20px;
     width: 23cm;
+    height: 100%;
 }
 
 /* this is the top container that covers the 15% part of the total height */
