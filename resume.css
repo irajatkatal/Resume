@@ -18,7 +18,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 /* THis is  the main conatiner */
@@ -26,7 +25,7 @@ body{
 .main-container{
     background-color: rgb(240, 248, 255);
     border-radius: 20px;
-    width: 23cm;
+    width: 21cm;
     height: 100%;
 }
 
@@ -75,7 +74,7 @@ handling only width and border on right*/
 
 .left-main-div{
     width: 45%;
-    height: 90%;
+    height: 99%;
     border-right: 2px solid gray;
     text-align: right;
     padding: 0px 20px;
@@ -89,7 +88,7 @@ handling only width and border on right*/
 handles only width */
 .right-main-div{
     width: 60%;
-    height: 90%;
+    height: 99%;
     padding: 0 40px;
     text-align: justify;
 }
