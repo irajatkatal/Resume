@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* General code */
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Influenceing the body tag */
+
+body{    
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(32, 32, 32); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* THis is  the main conatiner */
+
+.main-container{
+    background-color: rgb(240, 248, 255);
+    border-radius: 20px;
+    width: 21cm;
+}
+
+/* this is the top container that covers the 15% part of the total height */
+
+.top-main-div{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.green-div{
+    background-color: rgb(179, 209, 185);
+    width: 90%;
+    height: 35%;
+    position: absolute;
+    top: 30%;
+}
+
+.colorless-div{
+    background-color: rgb(240, 248, 255);
+    width: 70%;
+    height: 30%;
+    position: absolute;
+    top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 6px, -2px 0 6px;
+    font-size: 20px;
+}
+
+
+/* this is 2nd main container that covers the 80% part of total height */
+
+.bottom-main-div{
+    display: flex;
+    height: 1000px;
+}
+
+/* Left part inside of  the 2nd main div 
+handling only width and border on right*/
+
+.left-main-div{
+    width: 45%;
+    height: 90%;
+    border-right: 2px solid gray;
+    text-align: right;
+    padding: 0px 20px;
+}
+
+.left-main-div li{
+    list-style-type: none;
+}
+
+/*  Right div of the 2nd main dive 
+handles only width */
+.right-main-div{
+    width: 60%;
+    height: 90%;
+    padding: 0 40px;
+    text-align: justify;
+}
+
+/* handles the divs inside 2nd main dive */
+.heading-div{
+    margin-bottom: 30px;
+}
+
+/* Handles the heading Contact, education and languages Experience Tech certificats Strength and Hobbies */
+.headings{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px; 
+}
+
+/* handles paragraph part */
+
+.details{
+    font-size: 14px;
+    font-weight: 550;
+    margin-right: 10px;
+}
+/* handling spacing between courses */
+.school-name{
+    margin: 20px 0px;
+}
+
+/* aliging certificate number  */
+#p1{
+    text-align: right;
+}
+
+.proficiency-boxes {
+    font-size: 30px; /* Adjust font size as needed */
+    margin-left: 20px;
+  }
+
+  .language{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+#link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
