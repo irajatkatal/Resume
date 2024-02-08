@@ -140,3 +140,8 @@ handles only width */
     color: black;
 }
 
+@media print {
+    body {
+      background: none;
+    }
+  }
