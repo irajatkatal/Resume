@@ -27,7 +27,7 @@ body{
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     width: 21cm;
-    min-height: 10vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -141,9 +141,16 @@ handles only width */
     text-decoration: none;
     color: black;
 }
-
-@media print {
-    body {
-      background: none;
+@media only screen and (max-width: 600px) {
+    .main-container {
+      width: 100%;
     }
+    .green-div{
+        height: 35%;
+    }
+    .colorless-div{
+        height: 30%;
+        font-size: 18px;
+    }
+
   }
